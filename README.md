@@ -1,4 +1,4 @@
-## github-status-cli
+## github-status-cli [![Build Status](https://travis-ci.org/ciceropablo/github-status-cli.svg)](https://travis-ci.org/ciceropablo/github-status-cli)
 > A CLI to check GitHub status.
 
 ## Installation
