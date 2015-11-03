@@ -1,0 +1,43 @@
+{
+  "name": "github-status-cli",
+  "version": "0.0.0",
+  "description": "A CLI to check GitHub status.",
+  "scripts": {
+    "test": "eslint *.js && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciceropablo/github-status-cli.git"
+  },
+  "keywords": [
+    "github",
+    "status",
+    "cli"
+  ],
+  "author": {
+    "name": "Cícero Pablo",
+    "email": "cicero.pablos@gmail.com",
+    "url": "ciceropablo.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ciceropablo/github-status-cli/issues"
+  },
+  "homepage": "https://github.com/ciceropablo/github-status-cli#readme",
+  "dependencies": {
+    "github-status": "0.0.1",
+    "meow": "^3.5.0"
+  },
+  "devDependencies": {
+    "ava": "^0.3.0"
+  },
+  "bin": {
+    "github-status": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "cli.js"
+  ]
+}
